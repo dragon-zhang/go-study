@@ -23,5 +23,6 @@ func main() {
 	demos.Json()
 	demos.Channel()
 	demos.WaitGroup()
+	demos.ThreadId()
 	demos.RealCoroutine()
 }
