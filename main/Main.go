@@ -24,5 +24,8 @@ func main() {
 	demos.Channel()
 	demos.WaitGroup()
 	demos.ThreadId()
+	demos.MmapRead("before")
+	demos.MmapWrite()
+	demos.MmapRead("after")
 	demos.RealCoroutine()
 }
