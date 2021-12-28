@@ -7,6 +7,8 @@ import (
 	"syscall"
 )
 
+// see https://geektutu.com/post/quick-go-mmap.html
+
 const maxMapSize = 0x8000000000
 const maxMmapStep = 1 << 30 // 1GB
 
