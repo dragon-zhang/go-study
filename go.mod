@@ -7,7 +7,6 @@ require (
 	github.com/golang/protobuf v1.5.2
 	github.com/shirdonl/goWebActualCombat v0.0.0-20211211093600-b84124f40e18
 	google.golang.org/protobuf v1.27.1
-	github.com/dubbogo/tools v1.0.5
 )
 
 require (
