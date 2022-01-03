@@ -9,8 +9,11 @@ import (
 )
 
 func main() {
-	soPath := "spi/plugin.so"
-	sourcePath := "spi/plugin.go"
+	//todo 后续可以抽象出类似java spi的配置文件
+	//	   要求：1.能根据环境加载本地dylib;
+	//			2.如果是go源文件，编译出3环境通用的dylib
+	soPath := "spi.api.Test/TestImpl.so"
+	sourcePath := "spi/impl/TestImpl.go"
 	BuildDynamicLibrary(soPath, sourcePath)
 	plug, err := plugin.Open(soPath)
 	if err != nil {
