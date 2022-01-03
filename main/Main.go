@@ -27,5 +27,6 @@ func main() {
 	demos.MmapRead("before")
 	demos.MmapWrite()
 	demos.MmapRead("after")
+	demos.Tag()
 	demos.RealCoroutine()
 }
