@@ -6,8 +6,8 @@ import (
 	"dubbo.apache.org/dubbo-go/v3/config"
 	_ "dubbo.apache.org/dubbo-go/v3/imports"
 	"fmt"
+	"github.com/dragon-zhang/go-study/dubbo-proto/api"
 	triple "github.com/dubbogo/triple/pkg/common/constant"
-	"go-projects/dubbo-proto/api"
 )
 
 var demoService = new(api.DemoServiceClientImpl)

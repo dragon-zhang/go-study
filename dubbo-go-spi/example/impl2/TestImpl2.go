@@ -2,7 +2,7 @@ package impl2
 
 import (
 	"fmt"
-	"go-projects/dubbo-go-spi/example"
+	"github.com/dragon-zhang/go-study/dubbo-go-spi/example"
 )
 
 type TestImpl2 struct {

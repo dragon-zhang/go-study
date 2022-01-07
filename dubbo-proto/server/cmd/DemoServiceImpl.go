@@ -5,8 +5,8 @@ import (
 	dubbo "dubbo.apache.org/dubbo-go/v3/common/constant"
 	"dubbo.apache.org/dubbo-go/v3/config"
 	_ "dubbo.apache.org/dubbo-go/v3/imports"
+	"github.com/dragon-zhang/go-study/dubbo-proto/api"
 	triple "github.com/dubbogo/triple/pkg/common/constant"
-	"go-projects/dubbo-proto/api"
 )
 
 type DemoServiceImpl struct {

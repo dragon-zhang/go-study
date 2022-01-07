@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-projects/demos"
+	"github.com/dragon-zhang/go-study/demos"
 )
 
 // GOPROXY=https://proxy.golang.com.cn

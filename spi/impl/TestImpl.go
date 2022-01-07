@@ -1,6 +1,6 @@
 package main
 
-import "go-projects/spi/api"
+import "github.com/dragon-zhang/go-study/spi/api"
 
 type TestImpl struct {
 	api.Test
