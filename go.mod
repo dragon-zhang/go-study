@@ -1,4 +1,4 @@
-module go-projects
+module go-study
 
 require (
 	dubbo.apache.org/dubbo-go/v3 v3.0.0-rc4-1.0.20211205094359-7bb88bfc87a2
@@ -78,7 +78,6 @@ require (
 	github.com/pelletier/go-toml v1.7.0 // indirect
 	github.com/pierrec/lz4 v2.5.2+incompatible // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/polarismesh/polaris-go v1.0.0 // indirect
 	github.com/prometheus/client_golang v1.11.0 // indirect
 	github.com/prometheus/client_model v0.2.0 // indirect
@@ -117,7 +116,6 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.51.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 	k8s.io/apimachinery v0.22.4 // indirect
 	k8s.io/klog/v2 v2.9.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.1.2 // indirect
@@ -127,7 +125,6 @@ require (
 	github.com/json-iterator/go v1.1.11
 	github.com/modern-go/reflect2 v1.0.1
 	github.com/stretchr/objx v0.2.0 // indirect
-	github.com/stretchr/testify v1.7.0
 	golang.org/x/exp v0.0.0-20211221223016-e29036178569
 )
 
