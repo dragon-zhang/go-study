@@ -1,4 +1,4 @@
-module go-study
+module github.com/dragon-zhang/go-study
 
 require (
 	dubbo.apache.org/dubbo-go/v3 v3.0.0-rc4-1.0.20211205094359-7bb88bfc87a2
